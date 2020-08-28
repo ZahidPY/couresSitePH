@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 
 
 const CourseList = (props) => {
-    const { name, image, enroll, instructor, courseFee } = props.passCourse;
+    const { name, image,  instructor, courseFee } = props.passCourse;
     return (
         <div className="course mb-3 p-3">
             <div className="row d-flex align-items-center">
